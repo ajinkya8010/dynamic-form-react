@@ -8,11 +8,11 @@ const HomePage = () => {
 
   const handleFormSelection = (e) => {
     setSelectedForm(e.target.value);
-    setSubmittedData([]); // Clear data when switching forms
+    setSubmittedData([]); 
   };
 
   const handleFormSubmit = (formData) => {
-    setSubmittedData((prevData) => [...prevData, formData]); // Append new records
+    setSubmittedData((prevData) => [...prevData, formData]); 
   };
 
   const handleDelete = (index) => {
@@ -22,7 +22,7 @@ const HomePage = () => {
 
   const handleEdit = (index, updatedRow) => {
     const updatedData = [...submittedData];
-    updatedData[index] = updatedRow; // Update only the edited row
+    updatedData[index] = updatedRow;
     setSubmittedData(updatedData);
   };
 

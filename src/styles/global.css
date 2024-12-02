@@ -1,10 +1,9 @@
-/* General Page Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-x: hidden; 
 }
 
 .header {
@@ -19,7 +18,7 @@ body {
   color: #6c757d;
   padding: 1rem;
   text-align: center;
-  position: relative; /* Allows scrolling without fixing */
+  position: relative;
 }
 
 .home-page {
@@ -27,7 +26,7 @@ body {
   padding: 2rem;
 }
 
-/* Form Styles */
+
 .form-container {
   margin: 2rem auto;
   max-width: 600px;
@@ -78,7 +77,7 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Progress Bar Styles */
+
 .progress-bar-container {
   background-color: #e0e0e0;
   border-radius: 5px;
@@ -97,11 +96,11 @@ button:hover {
   transition: width 0.3s ease-in-out;
 }
 
-/* Table Styles */
+
 .data-table {
   margin: 2rem auto;
   max-width: 800px;
-  overflow-x: auto; /* Ensure table scrolls horizontally on small screens */
+  overflow-x: auto; 
   background-color: white;
   padding: 1rem;
   border-radius: 8px;
@@ -147,12 +146,12 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Scrollable Page */
+
 body {
-  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-y: auto; 
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
   .header,
   .footer {
